@@ -14,6 +14,6 @@
 </style>
 
 <main class="main">
-  <!-- <UserCard /> -->
-  <ProductCard />
+  <UserCard />
+  <!-- <ProductCard /> -->
 </main>
