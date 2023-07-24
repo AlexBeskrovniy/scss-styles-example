@@ -1,5 +1,18 @@
+$breakpoints: (
+    'mobile': (max-width: 900px),
+    'desktop': (min-width: 901px)
+);
+
 @mixin flex-center () {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin respond($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media #{inspect(map-get($breakpoints, $breakpoint))} {
+            @content
+        }
+    }
 }

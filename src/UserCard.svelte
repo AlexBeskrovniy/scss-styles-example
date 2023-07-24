@@ -5,6 +5,10 @@
     .card {
       $cardColor: #231E39;
       $outlineColor: #03BFCB;
+
+      @include respond('mobile') {
+        background: red;
+      }
   
       height: auto;
       width: min(350px, 90vw);
