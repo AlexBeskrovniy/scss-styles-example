@@ -1,6 +1,7 @@
 <script lang="ts">
     import UserCard from './UserCard.svelte';
     import ProductCard from './ProductCard.svelte';
+    import FuelIndicator from './FuelIndicator.svelte';
 </script>
 
 <style lang="scss">
@@ -14,6 +15,7 @@
 </style>
 
 <main class="main">
-  <UserCard />
+  <!-- <UserCard /> -->
   <!-- <ProductCard /> -->
+  <FuelIndicator />
 </main>
