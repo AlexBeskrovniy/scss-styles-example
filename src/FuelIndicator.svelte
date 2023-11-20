@@ -87,7 +87,7 @@
                         width: 2px;
                         height: 10px;
                         background: #8B8B8B;
-                        position: absoulute;
+                        position: absolute;
                     }
                         
                     &.big {

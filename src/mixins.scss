@@ -3,10 +3,15 @@ $breakpoints: (
     'desktop': (min-width: 901px)
 );
 
-@mixin flex-center () {
+@mixin flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 @mixin respond($breakpoint) {

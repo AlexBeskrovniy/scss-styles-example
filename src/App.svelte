@@ -2,6 +2,7 @@
     import UserCard from './UserCard.svelte';
     import ProductCard from './ProductCard.svelte';
     import FuelIndicator from './FuelIndicator.svelte';
+    import VerticalSlider from './VerticalSlider.svelte';
 </script>
 
 <style lang="scss">
@@ -10,12 +11,13 @@
   .main {
       height: 100vh;
       color: $textColor;
-      @include flex-center();
+      /* @include flex-center; */
     }
 </style>
 
 <main class="main">
   <!-- <UserCard /> -->
   <!-- <ProductCard /> -->
-  <FuelIndicator />
+  <!-- <FuelIndicator /> -->
+  <VerticalSlider />
 </main>
